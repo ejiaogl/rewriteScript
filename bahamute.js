@@ -1,6 +1,6 @@
-var body = $response.body
-var json = JSON.stringify(body)
+var body = $response.body;
+var json = JSON.stringify(body);
 
-delete json.ad
-delete json.adPriority
-$done(json)
+delete json.ad;
+delete json.adPriority;
+$done(json);
